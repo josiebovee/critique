@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;}
+*, *:before, *:after, {box-sizing: inherit;}
+
+img {max-width: 100%}
+
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 70px;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #eaaf9d;
+        font-family:  'Crimson Text', serif;}
+}
+    
+
+body {background-color: #eaaf9d;}
+
+p {font-size: 20px;}
+
+.imgheader {
+    width: 100%;
+    background-size: cover;}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 30px;
+    padding: 0px;}
+
+.intro {
+    grid-column-start: 2;
+    grid-column-end: 4;}
+
+.about-me {
+    grid-column-start: 2;
+    grid-column-end:4;
+}
+
+.about-me p {
+    padding: 10px;
+}
+
+.archie {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 60%;
+    }
+    
+
+.table {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 100%;
+    border: 10px;}
+
+.design {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.ambitions {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.contact {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;}
+
+
+.contact ul {
+    list-style-type: none;
+    display: inline-flex;  
+    align-content: center;}
+
+.contact li {
+    padding: 0px 30px 0px 30px;}
+
+.contact h3 {
+    text-align: center;}
